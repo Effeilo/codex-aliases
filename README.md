@@ -16,6 +16,12 @@ Three shell shortcuts to launch **Codex CLI** with a specific model, inspired by
 
 The shortcuts select a model and optionally a reasoning level. Permissions and sandbox settings remain as defined in your Codex configuration.
 
+## Demo
+
+[![Watch the demo: launch Astra with cxa, then Sol with cxs --high](./assets/demo-preview.png)](./assets/demo.mp4)
+
+[Watch the 18-second demo](./assets/demo.mp4) — a simulated terminal walkthrough showing `cxa`, followed by `cxs --high` in a second terminal.
+
 ## Installation
 
 Requirements: Bash or Zsh, with [Codex CLI](https://developers.openai.com/codex/cli/) installed and signed in (`codex login`).
