@@ -17,8 +17,8 @@ Three shell shortcuts to launch **Codex CLI** with a specific model, inspired by
 The shortcuts select a model and optionally a reasoning level. Permissions and sandbox settings remain as defined in your Codex configuration.
 
 ## Demo
+https://github.com/user-attachments/assets/eb8da178-a0c0-43aa-ac9e-593e711d0b0e
 
-[![Watch the demo: launch Astra with cxa, then Sol with cxs --high](./assets/demo-preview.png)](./assets/demo.mp4)
 
 [Watch the 18-second demo](./assets/demo.mp4) — a simulated terminal walkthrough showing `cxa`, followed by `cxs --high` in a second terminal.
 
