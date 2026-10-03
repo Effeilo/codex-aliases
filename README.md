@@ -11,7 +11,7 @@ Three shell shortcuts to launch **Codex CLI** with a specific model, inspired by
 | Alias | Default model | Environment variable |
 | --- | --- | --- |
 | `cxa` | `gpt-6-astra` | `CODEX_MODEL_ASTRA` |
-| `cxs` | `gpt-6-sol` | `CODEX_MODEL_SOL` |
+| `cxs` | `gpt-6.1-sol` | `CODEX_MODEL_SOL` |
 | `cxl` | `gpt-6-luna` | `CODEX_MODEL_LUNA` |
 
 The shortcuts select a model and optionally a reasoning level. Permissions and sandbox settings remain as defined in your Codex configuration.
@@ -66,7 +66,7 @@ To upgrade an existing installation, run the installation command again and open
 
 Model IDs follow the [official Codex model documentation](https://developers.openai.com/codex/models/), checked on September 26, 2026. Availability depends on your account, client, and rollout. Use `/model` in Codex to see your available options.
 
-You can change models without reinstalling the aliases. For example, if Sol 6 is not yet available on your account:
+You can change models without reinstalling the aliases. For example, if Sol 6.1 is not yet available on your account:
 
 ```sh
 export CODEX_MODEL_SOL=gpt-5.6-sol

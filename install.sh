@@ -87,7 +87,7 @@ _codex_aliases_run() {
 }
 
 cxa() { _codex_aliases_run "${CODEX_MODEL_ASTRA:-gpt-6-astra}" "$@"; }
-cxs() { _codex_aliases_run "${CODEX_MODEL_SOL:-gpt-6-sol}" "$@"; }
+cxs() { _codex_aliases_run "${CODEX_MODEL_SOL:-gpt-6.1-sol}" "$@"; }
 cxl() { _codex_aliases_run "${CODEX_MODEL_LUNA:-gpt-6-luna}" "$@"; }
 # <<< codex-aliases <<<
 ALIASES

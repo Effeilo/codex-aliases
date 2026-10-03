@@ -53,7 +53,7 @@ for shell in bash zsh; do
 <gpt-6-astra>
 <a prompt with spaces>
 <--model>
-<gpt-6-sol>
+<gpt-6.1-sol>
 <resume>
 <--last>
 <--model>
@@ -100,7 +100,7 @@ for level in low medium high xhigh; do
   expected=$(printf '<%s>\n' --model gpt-6-astra -c "model_reasoning_effort=\"$level\"" 'a prompt with spaces')
   test "$actual" = "$expected"
 done
-test "$(cxs --high resume --last)" = "$(printf '<%s>\n' --model gpt-6-sol -c 'model_reasoning_effort="high"' resume --last)"
+test "$(cxs --high resume --last)" = "$(printf '<%s>\n' --model gpt-6.1-sol -c 'model_reasoning_effort="high"' resume --last)"
 test "$(cxl --low exec 'hello world')" = "$(printf '<%s>\n' --model gpt-6-luna -c 'model_reasoning_effort="low"' exec 'hello world')"
 test "$(cxa -- --high)" = "$(printf '<%s>\n' --model gpt-6-astra -- --high)"
 if cxa --high --low; then exit 1; fi
